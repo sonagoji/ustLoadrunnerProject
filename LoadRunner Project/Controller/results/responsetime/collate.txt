@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\LoadRunner Project\Controller\response\response.lrs
+Completed=0
