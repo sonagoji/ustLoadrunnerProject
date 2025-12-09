@@ -1,0 +1,13 @@
+[t3]
+FileName1=t3.htm
+URL1=http://adactinhotelapp.com/SelectHotel.php
+Total=2
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_select_hotel.html
+URL2=http://adactinhotelapp.com/js/select_hotel.js
+[ProtocolInfo]
+ProtocolId=QTWeb

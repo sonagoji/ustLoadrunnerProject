@@ -1,0 +1,9 @@
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+login.c(9): Found resource "http://adactinhotelapp.com/img/Adactin-Logo.jpg" in HTML "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26659]
+login.c(9): Found resource "http://adactinhotelapp.com/img/hotel.jpg" in HTML "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26659]
+login.c(9): Found resource "http://adactinhotelapp.com/img/main-image-hotel-app.jpeg" in HTML "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26659]
+login.c(9): Found resource "http://adactinhotelapp.com/img/ios-button.png" in HTML "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26659]
+login.c(9): Found resource "http://adactinhotelapp.com/img/google-play.png" in HTML "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26659]
+login.c(9): Error -27720: Step download timeout (120 seconds) has expired when downloading resource "http://adactinhotelapp.com/img/main-image-hotel-app.jpeg". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No to have this message as a warning/error, respectively  	[MsgId: MERR-27720]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

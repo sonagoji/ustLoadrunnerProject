@@ -1,0 +1,10 @@
+[vuser_init]
+SnapshotIndex=I1_vuser_init
+[booking]
+SnapshotIndex=I1_booking
+[searching]
+SnapshotIndex=I1_searching
+[logout]
+SnapshotIndex=I1_logout
+[login]
+SnapshotIndex=I1_login

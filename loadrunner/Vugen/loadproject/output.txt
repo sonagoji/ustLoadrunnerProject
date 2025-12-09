@@ -1,0 +1,126 @@
+Virtual User Script started at: 09-12-2025 10:22:27
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\Documents\VuGen\Scripts\loadproject\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action login.
+login.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+login.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+login.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+login.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+login.c(9): web_url("index.php") started  	[MsgId: MMSG-26355]
+login.c(9): Found resource "http://adactinhotelapp.com/css/main.css" in HTML "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26659]
+login.c(9): Found resource "http://adactinhotelapp.com/js/login.js" in HTML "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26659]
+login.c(9): Found resource "http://adactinhotelapp.com/img/Adactin-Logo.jpg" in HTML "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26659]
+login.c(9): Found resource "http://adactinhotelapp.com/img/hotel.jpg" in HTML "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26659]
+login.c(9): Found resource "http://adactinhotelapp.com/img/main-image-hotel-app.jpeg" in HTML "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26659]
+login.c(9): Found resource "http://adactinhotelapp.com/img/ios-button.png" in HTML "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26659]
+login.c(9): Found resource "http://adactinhotelapp.com/img/google-play.png" in HTML "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26659]
+login.c(9): web_url("index.php") was successful, 235721 body bytes, 2490 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+login.c(19): Notify: Transaction "log" started.
+login.c(22): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+login.c(22): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+login.c(32): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+login.c(32): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+login.c(41): web_submit_data("index.php_2") started  	[MsgId: MMSG-26355]
+login.c(41): Redirecting "http://adactinhotelapp.com/index.php" (redirection depth is 0)  	[MsgId: MMSG-26694]
+login.c(41): To location "http://adactinhotelapp.com/SearchHotel.php"  	[MsgId: MMSG-26693]
+login.c(41): Resource "http://adactinhotelapp.com/css/main.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+login.c(41): Found resource "http://adactinhotelapp.com/js/search_hotel.js" in HTML "http://adactinhotelapp.com/SearchHotel.php"  	[MsgId: MMSG-26659]
+login.c(41): Resource "http://adactinhotelapp.com/img/Adactin-Logo.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+login.c(41): Resource "http://adactinhotelapp.com/img/hotel.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+login.c(41): Detected non-resource "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html" in "http://adactinhotelapp.com/SearchHotel.php"  	[MsgId: MMSG-26573]
+login.c(41): Found resource "http://www.adactinhotelapp.com/img-horizontal-carousel/imgScroll.css" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+login.c(41): Found resource "http://adactinhotelapp.com/img/TestAutomationMS_CodedUI.jpg" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+login.c(41): Found resource "http://adactinhotelapp.com/img/ISTQB_foundation_level_exam.jpg" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+login.c(41): Found resource "http://adactinhotelapp.com/img/book_selenium_webdriver_app.png" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+login.c(41): Found resource "http://adactinhotelapp.com/img/book_hp_uft_navneesh_garg_hotelapp.png" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+login.c(41): Found resource "http://adactinhotelapp.com/img/TestAutomationSeleniumWebdriverCsharp.jpg" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+login.c(41): Found resource "https://code.jquery.com/jquery-1.12.4.min.js" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+login.c(41): Found resource "http://www.adactinhotelapp.com/img-horizontal-carousel/img-scroll.js" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+login.c(41): web_submit_data("index.php_2") was successful, 254592 body bytes, 4195 header bytes, 33 chunking overhead bytes  	[MsgId: MMSG-26385]
+login.c(55): Notify: Transaction "log" ended with a "Pass" status (Duration: 2.0960 Wasted Time: 0.0381).
+Ending action login.
+Starting action searching.
+searching.c(4): Notify: Transaction "search" started.
+searching.c(6): web_add_header("Accept-Language") started  	[MsgId: MMSG-26355]
+searching.c(6): web_add_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+searching.c(12): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+searching.c(12): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+searching.c(25): web_submit_data("SelectHotel.php") started  	[MsgId: MMSG-26355]
+searching.c(25): Resource "http://adactinhotelapp.com/css/main.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Found resource "http://adactinhotelapp.com/js/select_hotel.js" in HTML "http://adactinhotelapp.com/SelectHotel.php"  	[MsgId: MMSG-26659]
+searching.c(25): Resource "http://adactinhotelapp.com/img/Adactin-Logo.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Resource "http://adactinhotelapp.com/img/hotel.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Detected non-resource "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html" in "http://adactinhotelapp.com/SelectHotel.php"  	[MsgId: MMSG-26573]
+searching.c(25): Retrieving data from cache for "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26557]
+searching.c(25): Resource "http://www.adactinhotelapp.com/img-horizontal-carousel/imgScroll.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Resource "http://adactinhotelapp.com/img/TestAutomationMS_CodedUI.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Resource "http://adactinhotelapp.com/img/ISTQB_foundation_level_exam.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Resource "http://adactinhotelapp.com/img/book_selenium_webdriver_app.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Resource "http://adactinhotelapp.com/img/book_hp_uft_navneesh_garg_hotelapp.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Resource "http://adactinhotelapp.com/img/TestAutomationSeleniumWebdriverCsharp.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Resource "https://code.jquery.com/jquery-1.12.4.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Resource "http://www.adactinhotelapp.com/img-horizontal-carousel/img-scroll.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): web_submit_data("SelectHotel.php") was successful, 12888 body bytes, 632 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+searching.c(46): Notify: Transaction "search" ended with a "Pass" status (Duration: 0.7606 Wasted Time: 0.0119).
+Ending action searching.
+Starting action logout.
+logout.c(4): Notify: Transaction "logout" started.
+logout.c(6): web_add_header("Accept-Language") started  	[MsgId: MMSG-26355]
+logout.c(6): web_add_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+logout.c(11): web_url("Logout.php") started  	[MsgId: MMSG-26355]
+logout.c(11): Resource "http://adactinhotelapp.com/css/main.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+logout.c(11): Resource "http://adactinhotelapp.com/img/Adactin-Logo.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+logout.c(11): Resource "http://adactinhotelapp.com/img/hotel.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+logout.c(11): Detected non-resource "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html" in "http://adactinhotelapp.com/Logout.php"  	[MsgId: MMSG-26573]
+logout.c(11): Retrieving data from cache for "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26557]
+logout.c(11): Resource "http://www.adactinhotelapp.com/img-horizontal-carousel/imgScroll.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+logout.c(11): Resource "http://adactinhotelapp.com/img/TestAutomationMS_CodedUI.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+logout.c(11): Resource "http://adactinhotelapp.com/img/ISTQB_foundation_level_exam.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+logout.c(11): Resource "http://adactinhotelapp.com/img/book_selenium_webdriver_app.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+logout.c(11): Resource "http://adactinhotelapp.com/img/book_hp_uft_navneesh_garg_hotelapp.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+logout.c(11): Resource "http://adactinhotelapp.com/img/TestAutomationSeleniumWebdriverCsharp.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+logout.c(11): Resource "https://code.jquery.com/jquery-1.12.4.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+logout.c(11): Resource "http://www.adactinhotelapp.com/img-horizontal-carousel/img-scroll.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+logout.c(11): web_url("Logout.php") was successful, 3627 body bytes, 305 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+logout.c(21): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0.5982 Wasted Time: 0.0069).
+Ending action logout.
+Starting action booking.
+booking.c(4): Notify: Transaction "book" started.
+booking.c(6): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+booking.c(6): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+booking.c(9): web_submit_data("BookHotel.php") started  	[MsgId: MMSG-26355]
+booking.c(9): Redirecting "http://adactinhotelapp.com/BookHotel.php" (redirection depth is 0)  	[MsgId: MMSG-26694]
+booking.c(9): To location "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26693]
+booking.c(9): Resource "http://adactinhotelapp.com/css/main.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(9): Resource "http://adactinhotelapp.com/js/login.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(9): Resource "http://adactinhotelapp.com/img/Adactin-Logo.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(9): Resource "http://adactinhotelapp.com/img/hotel.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(9): Resource "http://adactinhotelapp.com/img/main-image-hotel-app.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(9): Resource "http://adactinhotelapp.com/img/ios-button.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(9): Resource "http://adactinhotelapp.com/img/google-play.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(9): web_submit_data("BookHotel.php") was successful, 17943 body bytes, 596 header bytes, 34 chunking overhead bytes  	[MsgId: MMSG-26385]
+booking.c(45): web_submit_data("BookingConfirm.php") started  	[MsgId: MMSG-26355]
+booking.c(45): Redirecting "http://adactinhotelapp.com/BookingConfirm.php" (redirection depth is 0)  	[MsgId: MMSG-26694]
+booking.c(45): To location "http://adactinhotelapp.com/index.php"  	[MsgId: MMSG-26693]
+booking.c(45): Resource "http://adactinhotelapp.com/css/main.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(45): Resource "http://adactinhotelapp.com/js/login.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(45): Resource "http://adactinhotelapp.com/img/Adactin-Logo.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(45): Resource "http://adactinhotelapp.com/img/hotel.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(45): Resource "http://adactinhotelapp.com/img/main-image-hotel-app.jpeg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(45): Resource "http://adactinhotelapp.com/img/ios-button.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(45): Resource "http://adactinhotelapp.com/img/google-play.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+booking.c(45): web_submit_data("BookingConfirm.php") was successful, 5698 body bytes, 596 header bytes, 25 chunking overhead bytes  	[MsgId: MMSG-26385]
+booking.c(77): Notify: Transaction "book" ended with a "Pass" status (Duration: 1.3538 Wasted Time: 0.0152).
+Ending action booking.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

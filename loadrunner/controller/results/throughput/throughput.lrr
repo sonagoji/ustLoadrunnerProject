@@ -1,0 +1,33 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2023.0.0.0
+Path=C:\Reslt\loadrunner\controller\scenario\throughput.lrs
+Subject=throughput
+Result_file=C:\Reslt\loadrunner\controller\results\throughput\throughput.lrr
+Description=
+ResultName=throughput
+Time_Zone=-19800
+Start_time=1765263345
+Daylight_Bias=0
+Stop_time=1765264017
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 20 Vusers simultaneously; Run for 00:10:00 (HH:MM:SS); Stop all Vusers simultaneously
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST20;R600;SP20;
+[Scripts]
+loadproject=C:\Users\Administrator\Documents\VuGen\Scripts\loadproject\loadproject.usr
+[Scripts_types]
+loadproject=Multi+QTWeb

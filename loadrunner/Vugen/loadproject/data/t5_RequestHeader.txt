@@ -1,0 +1,15 @@
+POST /BookingConfirm.php HTTP/1.1
+Host: adactinhotelapp.com
+Connection: keep-alive
+Content-Length: 445
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://adactinhotelapp.com
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://adactinhotelapp.com/BookHotel.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: __utma=163644015.1498009092.1765251534.1765251534.1765251534.1; __utmc=163644015; __utmz=163644015.1765251534.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmt=1; PHPSESSID=bd0a4b76566e627492e0d0abbdc66f00; __utmb=163644015.4.10.1765251534
+

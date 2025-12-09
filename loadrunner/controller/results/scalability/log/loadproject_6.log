@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+searching.c(25): Resource "http://adactinhotelapp.com/img/book_hp_uft_navneesh_garg_hotelapp.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Resource "http://adactinhotelapp.com/img/TestAutomationSeleniumWebdriverCsharp.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Resource "https://code.jquery.com/jquery-1.12.4.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Resource "http://www.adactinhotelapp.com/img-horizontal-carousel/img-scroll.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+searching.c(25): Error -27721: Step download timeout (120 seconds) has expired when downloading resource "http://adactinhotelapp.com/SelectHotel.php"  	[MsgId: MERR-27721]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+searching.c(25): Aborting pending download of URL="http://adactinhotelapp.com/SelectHotel.php" (RelFrameId=1, Internal ID=21)  	[MsgId: MMSG-27649]
+searching.c(25): Error -35048: No match found for the requested parameter "continue". Check whether the tag with specific attributes exists in the response data  	[MsgId: MERR-35048]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

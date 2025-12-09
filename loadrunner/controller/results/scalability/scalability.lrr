@@ -1,0 +1,33 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2023.0.0.0
+Path=C:\Reslt\loadrunner\controller\scenario\scalability.lrs
+Subject=
+Result_file=C:\Reslt\loadrunner\controller\results\scalability\scalability.lrr
+Description=
+ResultName=scalability
+Time_Zone=-19800
+Start_time=1765268112
+Daylight_Bias=0
+Stop_time=1765268593
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 20 Vusers simultaneously; Run for 00:01:00 (HH:MM:SS); Start 20 Vusers simultaneously; Run for 00:01:00 (HH:MM:SS); Start 20 Vusers simultaneously; Run for 00:01:00 (HH:MM:SS); Start 20 Vusers simultaneously; Run for 00:01:00 (HH:MM:SS); Start 20 Vusers simultaneously; Run for 00:01:00 (HH:MM:SS); Stop all Vusers: 20 every 00:01:00 (HH:MM:SS)
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST20;R60;ST20;R60;ST20;R60;ST20;R60;ST20;R60;SP100_20E60;
+[Scripts]
+loadproject=C:\Users\Administrator\Documents\VuGen\Scripts\loadproject\loadproject.usr
+[Scripts_types]
+loadproject=Multi+QTWeb

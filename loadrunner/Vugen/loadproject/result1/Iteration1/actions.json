@@ -1,0 +1,94 @@
+[
+    {
+        "actionName": "login",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: index.php",
+                "infFile": "t1.inf",
+                "time": 1765255950754
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: index.php_2",
+                "infFile": "t4.inf",
+                "time": 1765255952860
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "log",
+                "rawStartTime": 1765255950767,
+                "rawEndTime": 1765255952863,
+                "thinkTime": 0.0,
+                "wastedTime": 0.03814268112182617
+            }
+        ]
+    },
+    {
+        "actionName": "searching",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: SelectHotel.php",
+                "infFile": "t6.inf",
+                "time": 1765255953639
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "search",
+                "rawStartTime": 1765255952895,
+                "rawEndTime": 1765255953656,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011858224868774414
+            }
+        ]
+    },
+    {
+        "actionName": "logout",
+        "steps": [
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: Logout.php",
+                "infFile": "t7.inf",
+                "time": 1765255954282
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1765255953687,
+                "rawEndTime": 1765255954285,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00686335563659668
+            }
+        ]
+    },
+    {
+        "actionName": "booking",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: BookHotel.php",
+                "infFile": "t8.inf",
+                "time": 1765255954993
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: BookingConfirm.php",
+                "infFile": "t9.inf",
+                "time": 1765255955655
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "book",
+                "rawStartTime": 1765255954318,
+                "rawEndTime": 1765255955672,
+                "thinkTime": 0.0,
+                "wastedTime": 0.015176057815551758
+            }
+        ]
+    }
+]

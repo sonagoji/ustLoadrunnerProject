@@ -1,0 +1,838 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "text/css"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/jpeg"
+    },
+    {
+      "IsNonResource": false,
+      "type": "application/javascript"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 20,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Dec-09-2025",
+    "RecordingDuration": 138797,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1765251528,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 498147,
+    "TotalBytesSent": 20758,
+    "TotalRequests": 31,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "jquery.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "151.101.66.137",
+          "IncludeInScript": false,
+          "Name": "code.jquery.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/javascript",
+              "DownloadTime": 32,
+              "EventId": 229,
+              "HttpStatus": 200,
+              "Size": 33738,
+              "URL": "https://code.jquery.com/jquery-1.12.4.min.js"
+            }
+          ],
+          "SSLCipher": "TLS_AES_128_GCM_SHA256",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.67.35",
+          "IncludeInScript": false,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 234,
+              "EventId": 330,
+              "HttpStatus": 200,
+              "Size": 834,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=13:su5FQzsIH6H1nasuaXdf6caDlAsoqtzODKPjPYkDags&cup2hreq=9a820e49eb9f824c5e2de4534358f289bacf0ac034d71d1106de5820d5bb027c"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 187,
+              "EventId": 142,
+              "HttpStatus": 200,
+              "Size": 264,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=13:CwVZGsnUWu3wcnxMS73_wRF3svQ7jzn639enhIE93SU&cup2hreq=3e6211f79fd098deb679afaed771055f57cb6f4a2386d36cf5b0223aa167128a"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.251.222.138",
+          "IncludeInScript": false,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 16,
+              "EventId": 372,
+              "HttpStatus": 200,
+              "Size": 1851,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch0KDGdvb2dsZWNocm9tZRINMTEzLjAuNTY3Mi45MxopCAUQARobCg0IBRAGGAEiAzAwMTABEJL0HRoCGAganELcIgQgASACKAEaKQgBEAEaGwoNCAEQBhgBIgMwMDEwARCBmxMaAhgIvq0y8CIEIAEgAigBGikIBxABGhsKDQgHEAYYASIDMDAxMAEQmKUTGgIYCLJwjr0iBCABIAIoARonCAEQARoZCg0IARAGGAEiAzAwMTADEBQaAhgIQ6YFlCIEIAEgAigDGigIARAIGhoKDQgBEAgYASIDMDAxMAQQ3D4aAhgIGzxmgiIEIAEgAigEGikIDxABGhsKDQgPEAYYASIDMDAxMAEQ6NYHGgIYCO2xnD4iBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgIdicqyCIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIxoCGAi-bzjUIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARCOGxoCGAhruHQ3IgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARC03AIaAhgIC98SyCIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQpJMTGgIYCJY1PA8iBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABEOT6BxoCGAjjN2rGIgQgASACKAEaKAgQEAEaGgoNCBAQBhgBIgMwMDEwARDXORoCGAgUW0tnIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.182.74",
+          "IncludeInScript": false,
+          "Name": "content-autofill.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 384,
+              "HttpStatus": 200,
+              "Size": 158,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTEzLjAuNTY3Mi45MxJ5CZ1CaE2aCWhhEgUNU9DPSxIFDZLU-N8SBQ3CKhi0EgUNu5KK8RIFDZjBlcwSBQ1oKWRDEgUN2XDzqRIFDfTLIaoSBQ1MwndgEgUNl4T0kBIFDTFRROcSBQ0NmdFMEgUN77-NcxIFDQCgC8oSBQ2erW9sEgUNrAQJMRIQCUd5ipbC4NgoEgUNZgfrXw==?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 355,
+              "HttpStatus": 200,
+              "Size": 184,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTEzLjAuNTY3Mi45MxKAAQmV47k9ABdGQxIFDTTpLdUSBQ3GiVZLEgUNoPp6JhIFDZkCvMoSBQ39AVTVEgUN1EyY-xIFDZ3vtRkSBQ1CuOgiEgUN4--EGBIFDe-_jXMSBQ0AoAvKEgUNnq1vbBIFDSibrr0SBQ0uiQZfEgUNxRBvBRIFDTzxX1USBQ2l26XpEhAJR3mKlsLg2CgSBQ1mB-tf?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 303,
+              "HttpStatus": 200,
+              "Size": 95,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTEzLjAuNTY3Mi45MxJICapFnzr6yOJBEgUNIpt0vhIFDV7qfikSBQ0r7uAiEgUNAipbkBIFDcamMhwSBQ0V9SAwEgUN9YJdmxIFDfC0vNYSBQ2DOrFp?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 187,
+              "HttpStatus": 200,
+              "Size": 103,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTEzLjAuNTY3Mi45MxJBCYJYn6xnXW7rEgUNM44nbRIFDYGvaXUSBQ3ptPslEgUNhdxDYhIFDWEQsh0SBQ1FvKJ1EgUNIzmgNhIFDb77TRsSEAlHeYqWwuDYKBIFDWYH618=?alt=proto"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 94,
+              "EventId": 146,
+              "HttpStatus": 200,
+              "Size": 81,
+              "URL": "https://content-autofill.googleapis.com/v1/pages/ChRDaHJvbWUvMTEzLjAuNTY3Mi45MxIXCdJKoKLt48AnEgUN541ADhIFDc5BTHo=?alt=proto"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.251.223.227",
+          "IncludeInScript": false,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 344,
+              "EventId": 340,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 250,
+              "EventId": 337,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 375,
+              "EventId": 334,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 250,
+              "EventId": 316,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clientservices.googleapis.com/uma/v2"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 438,
+              "EventId": 21,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=113"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "172.217.194.84",
+          "IncludeInScript": false,
+          "Name": "accounts.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 125,
+              "EventId": 135,
+              "HttpStatus": 200,
+              "Size": 43,
+              "URL": "https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google-analytics.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.251.223.238",
+          "IncludeInScript": false,
+          "Name": "www.google-analytics.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 15,
+              "EventId": 396,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "http://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=6&utmn=222026544&utmhn=adactinhotelapp.com&utmcs=UTF-8&utmsr=1280x800&utmvp=1263x689&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Adactin.com%20-%20Logout&utmhid=287433781&utmr=0&utmp=%2FLogout.php&utmht=1765251664134&utmac=UA-30741095-2&utmcc=__utma%3D163644015.1498009092.1765251534.1765251534.1765251534.1%3B%2B__utmz%3D163644015.1765251534.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 382,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "http://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=5&utmn=1806869924&utmhn=adactinhotelapp.com&utmcs=UTF-8&utmsr=1280x800&utmvp=1263x689&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Adactin.com%20-%20Hotel%20Booking%20Confirmation&utmhid=1374800855&utmr=0&utmp=%2FBookingConfirm.php&utmht=1765251639788&utmac=UA-30741095-2&utmcc=__utma%3D163644015.1498009092.1765251534.1765251534.1765251534.1%3B%2B__utmz%3D163644015.1765251534.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 353,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "http://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=4&utmn=184637780&utmhn=adactinhotelapp.com&utmcs=UTF-8&utmsr=1280x800&utmvp=1263x689&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Adactin.com%20-%20Book%20A%20Hotel&utmhid=170401792&utmr=0&utmp=%2FBookHotel.php&utmht=1765251603208&utmac=UA-30741095-2&utmcc=__utma%3D163644015.1498009092.1765251534.1765251534.1765251534.1%3B%2B__utmz%3D163644015.1765251534.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 301,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "http://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=3&utmn=560563308&utmhn=adactinhotelapp.com&utmcs=UTF-8&utmsr=1280x800&utmvp=1263x689&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Adactin.com%20-%20Select%20Hotel&utmhid=1345905073&utmr=0&utmp=%2FSelectHotel.php&utmht=1765251582330&utmac=UA-30741095-2&utmcc=__utma%3D163644015.1498009092.1765251534.1765251534.1765251534.1%3B%2B__utmz%3D163644015.1765251534.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 183,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "http://www.google-analytics.com/__utm.gif?utmwv=5.7.2&utms=2&utmn=2025118726&utmhn=adactinhotelapp.com&utmcs=UTF-8&utmsr=1280x800&utmvp=1263x689&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Adactin.com%20-%20Search%20Hotel&utmhid=2082299123&utmr=0&utmp=%2FSearchHotel.php&utmht=1765251553165&utmac=UA-30741095-2&utmcc=__utma%3D163644015.1498009092.1765251534.1765251534.1765251534.1%3B%2B__utmz%3D163644015.1765251534.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 65,
+              "HttpStatus": 200,
+              "Size": 35,
+              "URL": "http://www.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=1&utmn=1066542664&utmhn=adactinhotelapp.com&utmcs=UTF-8&utmsr=1280x800&utmvp=1263x644&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Adactin.com%20-%20Hotel%20Reservation%20System&utmhid=1855502672&utmr=-&utmp=%2Findex.php&utmht=1765251533525&utmac=UA-30741095-2&utmcc=__utma%3D163644015.1498009092.1765251534.1765251534.1765251534.1%3B%2B__utmz%3D163644015.1765251534.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1968455324&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/javascript",
+              "DownloadTime": 15,
+              "EventId": 53,
+              "HttpStatus": 200,
+              "Size": 17168,
+              "URL": "http://www.google-analytics.com/ga.js"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "dns.google",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "8.8.8.8",
+          "IncludeInScript": false,
+          "Name": "dns.google",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 363,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABDHNhZmVicm93c2luZwpnb29nbGVhcGlzA2NvbQAAAQABAAApEAAAAAAAAEgADABEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 15,
+              "EventId": 321,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABBnVwZGF0ZQpnb29nbGVhcGlzA2NvbQAAAQABAAApEAAAAAAAAE4ADABKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 311,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABDmNsaWVudHNlcnZpY2VzCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAARgAMAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 63,
+              "EventId": 201,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABBGNvZGUGanF1ZXJ5A2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 0,
+              "EventId": 199,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABBGNvZGUGanF1ZXJ5A2NvbQAAQQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 500,
+              "EventId": 191,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dw9hZGFjdGluaG90ZWxhcHADY29tAAABAAEAACkQAAAAAAAATAAMAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 312,
+              "EventId": 189,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dw9hZGFjdGluaG90ZWxhcHADY29tAABBAAEAACkQAAAAAAAATAAMAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 0,
+              "EventId": 165,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABD2FkYWN0aW5ob3RlbGFwcANjb20AAAEAAQAAKRAAAAAAAABQAAwATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 32,
+              "EventId": 155,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABFG9wdGltaXphdGlvbmd1aWRlLXBhCmdvb2dsZWFwaXMDY29tAAABAAEAACkQAAAAAAAAQAAMADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 32,
+              "EventId": 121,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABEGNvbnRlbnQtYXV0b2ZpbGwKZ29vZ2xlYXBpcwNjb20AAAEAAQAAKRAAAAAAAABEAAwAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 117,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABBnVwZGF0ZQpnb29nbGVhcGlzA2NvbQAAAQABAAApEAAAAAAAAE4ADABKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 106,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABCGFjY291bnRzBmdvb2dsZQNjb20AAAEAAQAAKRAAAAAAAABQAAwATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 102,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 96,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/dns-message",
+              "DownloadTime": 31,
+              "EventId": 94,
+              "HttpStatus": 200,
+              "Size": 468,
+              "URL": "https://dns.google/dns-query?dns=AAABAAABAAAAAAABA3d3dwdnc3RhdGljA2NvbQAAAQABAAApEAAAAAAAAFQADABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "adactinhotelapp.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "139.99.167.206",
+          "IncludeInScript": true,
+          "Name": "www.adactinhotelapp.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 297,
+              "EventId": 398,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 297,
+              "EventId": 386,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 357,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 313,
+              "EventId": 305,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 359,
+              "EventId": 244,
+              "HttpStatus": 200,
+              "Size": 387,
+              "URL": "http://www.adactinhotelapp.com/img-horizontal-carousel/images/mainBG.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 312,
+              "EventId": 216,
+              "HttpStatus": 200,
+              "Size": 11845,
+              "URL": "http://www.adactinhotelapp.com/img-horizontal-carousel/img-scroll.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 297,
+              "EventId": 203,
+              "HttpStatus": 200,
+              "Size": 2940,
+              "URL": "http://www.adactinhotelapp.com/img-horizontal-carousel/imgScroll.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 297,
+              "EventId": 195,
+              "HttpStatus": 200,
+              "Size": 4344,
+              "URL": "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "139.99.167.206",
+          "IncludeInScript": true,
+          "Name": "adactinhotelapp.com",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 281,
+              "EventId": 392,
+              "HttpStatus": 200,
+              "Size": 3627,
+              "URL": "http://adactinhotelapp.com/Logout.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 500,
+              "EventId": 377,
+              "HttpStatus": 200,
+              "Size": 8564,
+              "URL": "http://adactinhotelapp.com/BookingConfirm.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 312,
+              "EventId": 348,
+              "HttpStatus": 200,
+              "Size": 3019,
+              "URL": "http://adactinhotelapp.com/js/book_hotel.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 297,
+              "EventId": 345,
+              "HttpStatus": 200,
+              "Size": 12772,
+              "URL": "http://adactinhotelapp.com/BookHotel.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 312,
+              "EventId": 296,
+              "HttpStatus": 200,
+              "Size": 4407,
+              "URL": "http://adactinhotelapp.com/js/select_hotel.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 312,
+              "EventId": 293,
+              "HttpStatus": 200,
+              "Size": 8481,
+              "URL": "http://adactinhotelapp.com/SelectHotel.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 2156,
+              "EventId": 272,
+              "HttpStatus": 200,
+              "Size": 73802,
+              "URL": "http://adactinhotelapp.com/img/book_hp_uft_navneesh_garg_hotelapp.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 1891,
+              "EventId": 269,
+              "HttpStatus": 200,
+              "Size": 20854,
+              "URL": "http://adactinhotelapp.com/img/ISTQB_foundation_level_exam.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 531,
+              "EventId": 258,
+              "HttpStatus": 200,
+              "Size": 20349,
+              "URL": "http://adactinhotelapp.com/img/TestAutomationSeleniumWebdriverCsharp.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 312,
+              "EventId": 226,
+              "HttpStatus": 200,
+              "Size": 50026,
+              "URL": "http://adactinhotelapp.com/img/book_selenium_webdriver_app.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 313,
+              "EventId": 205,
+              "HttpStatus": 200,
+              "Size": 19114,
+              "URL": "http://adactinhotelapp.com/img/TestAutomationMS_CodedUI.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 313,
+              "EventId": 178,
+              "HttpStatus": 200,
+              "Size": 2919,
+              "URL": "http://adactinhotelapp.com/js/search_hotel.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 328,
+              "EventId": 175,
+              "HttpStatus": 200,
+              "Size": 9480,
+              "URL": "http://adactinhotelapp.com/SearchHotel.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 312,
+              "EventId": 172,
+              "HttpStatus": 302,
+              "Size": 5181,
+              "URL": "http://adactinhotelapp.com/index.php"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 296,
+              "EventId": 100,
+              "HttpStatus": 404,
+              "Size": 315,
+              "URL": "http://adactinhotelapp.com/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 297,
+              "EventId": 61,
+              "HttpStatus": 200,
+              "Size": 10055,
+              "URL": "http://adactinhotelapp.com/img/google-play.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 282,
+              "EventId": 58,
+              "HttpStatus": 200,
+              "Size": 9294,
+              "URL": "http://adactinhotelapp.com/img/ios-button.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 296,
+              "EventId": 43,
+              "HttpStatus": 200,
+              "Size": 146404,
+              "URL": "http://adactinhotelapp.com/img/main-image-hotel-app.jpeg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 297,
+              "EventId": 31,
+              "HttpStatus": 200,
+              "Size": 24634,
+              "URL": "http://adactinhotelapp.com/img/hotel.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/javascript",
+              "DownloadTime": 312,
+              "EventId": 26,
+              "HttpStatus": 200,
+              "Size": 357,
+              "URL": "http://adactinhotelapp.com/js/login.js"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/jpeg",
+              "DownloadTime": 297,
+              "EventId": 23,
+              "HttpStatus": 200,
+              "Size": 37019,
+              "URL": "http://adactinhotelapp.com/img/Adactin-Logo.jpg"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/css",
+              "DownloadTime": 297,
+              "EventId": 17,
+              "HttpStatus": 200,
+              "Size": 2777,
+              "URL": "http://adactinhotelapp.com/css/main.css"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 297,
+              "EventId": 12,
+              "HttpStatus": 200,
+              "Size": 5181,
+              "URL": "http://adactinhotelapp.com/index.php"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 3
+}

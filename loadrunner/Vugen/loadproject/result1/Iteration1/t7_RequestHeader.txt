@@ -1,0 +1,10 @@
+GET /Logout.php HTTP/1.1
+Referer: http://adactinhotelapp.com/BookingConfirm.php
+Accept-Language: en-US,en;q=0.9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: adactinhotelapp.com
+Cookie: PHPSESSID=8e001ca704b0ea32987ef883ce609155
+

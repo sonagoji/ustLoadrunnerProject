@@ -1,0 +1,8 @@
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+login.c(41): Found resource "http://adactinhotelapp.com/img/book_hp_uft_navneesh_garg_hotelapp.png" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+login.c(41): Found resource "http://adactinhotelapp.com/img/TestAutomationSeleniumWebdriverCsharp.jpg" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+login.c(41): Found resource "https://code.jquery.com/jquery-1.12.4.min.js" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+login.c(41): Found resource "http://www.adactinhotelapp.com/img-horizontal-carousel/img-scroll.js" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+login.c(41): Error -27720: Step download timeout (120 seconds) has expired when downloading resource "http://adactinhotelapp.com/img/Adactin-Logo.jpg". Set the "Step Timeout caused by resources is a warning" Runtime Setting to Yes/No to have this message as a warning/error, respectively  	[MsgId: MERR-27720]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
